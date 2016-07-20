@@ -1,0 +1,23 @@
+img {
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ width: 700px;
+ height: 700px;
+ margin-top: -350px;
+ margin-left: -350px;
+}
+
+body {
+  background-color: #1D1E1F;
+}
+
+.hvr-pulse {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
